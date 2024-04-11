@@ -6,7 +6,7 @@ import ListItemText from '@mui/material/ListItemText';
 function ChatBubble({ chat }) {
 	console.log(chat)
 	return (
-		<ListItem sx={{ width: "70%", borderRadius: 4, my: 2, ml: chat.isRes ? "" : "30%", bgcolor: chat.isRes ? "#FFF" : "#FFD400" }}>
+		<ListItem sx={{ width: "80%", borderRadius: 4, my: 2, ml: chat.isRes ? "" : "20%", bgcolor: chat.isRes ? "#FFF" : "#FFD400" }}>
 			<ListItemText primary={chat.content} secondary={chat.timestamp} sx={{ color: "#000", textAlign: chat.isRes ? "" : "right", whiteSpace: "pre-wrap"}} />
 		</ListItem>
 	)

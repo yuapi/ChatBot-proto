@@ -15,7 +15,7 @@ export default async function gemini(prompt) {
 
 	const response = {
 		content: content,
-		createAt: timestamp,
+		timestamp: timestamp,
 		isRes: true
 	}
 	return response

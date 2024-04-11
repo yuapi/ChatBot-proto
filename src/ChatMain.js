@@ -40,8 +40,8 @@ export default function ChatMain() {
 	return (
 		<React.Fragment>
 			<CssBaseline />
-			<Container disableGutters maxWidth="100%" sx={{ pt: "64px", bgcolor: '#cfe8fc' }}>
-				<Box sx={{ height: '100vh'}}>
+			<Container disableGutters maxWidth="100%" sx={{ pt: "64px", mb: "56px" }}>
+				<Box sx={{ height: "100%" }}>
 					<ChatList chatLog={chatLog} getResponse={getResponse}></ChatList>
 				</Box>
 			</Container>

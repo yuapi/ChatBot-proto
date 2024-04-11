@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-		<Box width="100%" sx={{ flexGrow: 1 }}>
+		<Box width="100%" sx={{ flexGrow: 1, bgcolor: '#cfe8fc' }}>
         	<TopAppBar></TopAppBar>
 			<ChatMain></ChatMain>
 		</Box>
